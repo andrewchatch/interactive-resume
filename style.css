@@ -2,11 +2,11 @@ body {
   color: rgb(1,40,77);
   font-size: 16px;
   min-width: 10in;
+  font-family: Century Gothic, monospace;
 }
 
 #resume {
   width: 8.5in;
-  height: 11in;
   border: 1px solid black;
   display: flex;
   margin-left: auto;
@@ -55,6 +55,71 @@ body {
   float: left;
 }
 
+#school-section, #skills-list, #experience-list {
+  margin-left: 51px;
+}
+
+#work-date {
+  float: right;
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+#degree-name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: -2px;
+  margin-bottom: -1px;
+}
+
+#edu-list {
+  color: black;
+  font-family: Century Gothic, monospace;
+  margin-left: -15px;
+  margin-top: -5px;
+}
+
+#skills-icon {
+  font-size: 27px;
+  padding-left: 7px;
+}
+
+#coding-icon {
+  font-size: 27px;
+}
+
+#work-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: -2px;
+  margin-bottom: -1px;
+  color: black;
+}
+
+.icon-large {
+  background: rgb(1,40,77);
+  border-radius: 50%;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  line-height: 25px;
+  color: white;
+  padding-top: 9px;
+  height: 45px;
+  width: 45px;
+  margin-left: -5px;
+  margin-right: 5px;
+}
+
+.section-title {
+  margin-left: 5px;
+  line-height: 30px;
+  margin-top: 8px;
+  font-weight: 800;
+}
+
 .links,
 .links:hover,
 .links:active,
@@ -71,7 +136,7 @@ body {
   line-height: 30px;
 }
 
-#personal-summary {
+#personal-summary, #school-name, #skills-list, #coding-list {
   color: black;
   font-family: Century Gothic, monospace;
 }
