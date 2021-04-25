@@ -1,243 +1,118 @@
 <!DOCTYPE html>
 
 <html>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
 
-  <body style="color: rgb(1,40,77); font-size: 16px;">
-    <div id="resume" style="width: 8.5in; border: 1px solid black; display: flex; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;">
-      
-      <div id="main" style="width: 7.5in;
-  height: 100%;
-  margin: 0.5in;
-  position: relative;">
-          <h1 id="name" style="margin-left: 10px;
-  font-size: 36px; margin-top: -20px;"><b>Andrew Hatch</b></h1>
-          <h2 id="title" style="margin-left: 10px;
-  margin-top: -2px;
-  margin-bottom: 8px;
-  font-size: 20px;
-  font-weight: 200;">Software Developer</h2>
+  <body>
+    <div id="resume">
+
+      <div id="main">
+          <h1 id="name"><b>Andrew Hatch</b></h1>
+          <h2 id="title">Software Developer</h2>
           <div>
+              <div class="row text-center">
+                <div class="col-sm-6 icon-div" style="float: left">
+                  <span id="location" class="fa fa-location-arrow icon"></span>
+                  <p class="icon-tag" style="float: left;">Relocating to Boston, MA in August 2021</p>
+                </div>
+                <div class="col-sm-6 icon-div" style="float: right;">
+                  <span id="portfolio" class="fa fa-folder-open icon"></span>
+                  <p class="icon-tag" style="float: right;"><a href="https://andrewchatch.github.io/personal-portfolio/" target="_blank" rel="noreferrer" class="links">andrewchatch.github.io/personal-portfolio/</a></p>
+                </div>
+              </div>
               <div class="row">
-                  <div id="phone" class="col-sm-6" style="display: flex; float: left;">
-                    <span id="phone-icon" class="fa fa-phone fa-lg" style="background: rgb(1,40,77);
-  border-radius: 50%;
-  font-size: 20px;
-  padding: 3px;
-  text-align: center;
-  vertical-align: middle;
-  width: 30px;
-  height: 30px;
-  line-height: 25px;
-  color: white;
-  padding-top: 4px; float: left;"></span>
-                    <p id="phone-number" style="color: black;
-  font-family: Century Gothic, monospace;   margin-left: 5px;
-  line-height: 30px; float: left;">(720) 755-3389</p>
+                  <div id="phone" class="col-sm-6 icon-div" style="float: left;">
+                    <span id="phone-icon" class="fa fa-phone fa-lg icon"></span>
+                    <p id="phone-number" class="icon-tag">(720) 755-3389</p>
                   </div>
-                  <div class="col-sm-6" style="display: flex; float: right;">
-                    <span id="github-icon" class=" fa fa-github fa-lg" style="background: rgb(1,40,77);
-  border-radius: 50%;
-  border: 3px solid rgb(1,40,77);
-  line-height: 7px;
-  font-size: 20px;
-  padding: 3px;
-  text-align: center;
-  vertical-align: middle;
-  width: 30px;
-  height: 30px;
-  color: white;
-  padding-top: 9px; float: right;"></span>
-                    <p id="github-link" style="color: black;
-  font-family: Century Gothic, monospace;
-  margin-left: 5px;
-  line-height: 30px; 
-                                               float: right;"><a href="https://github.com/andrewchatch" target="_blank" rel="noreferrer" style="text-decoration: none; color: black;">github.com/andrewchatch</a></p>
+                  <div class="col-sm-6 icon-div" style="float: right;">
+                    <span id="github-icon" class=" fa fa-github fa-lg icon"></span>
+                    <p id="github-link" class="icon-tag" style="float: right;"><a href="https://github.com/andrewchatch" target="_blank" rel="noreferrer" class="links">github.com/andrewchatch</a></p>
                   </div>
                  </div>
                <div class="row">
-                <div class="col-sm-6 " style="display: flex; float: left;">
-                  <i id="email-icon" class="icons fa fa-envelope fa-lg" style="background: rgb(1,40,77);
-  border-radius: 50%;
-  font-size: 18px;
-  padding: 3px;
-  text-align: center;
-  vertical-align: middle;
-  width: 30px;
-  height: 30px;
-  line-height: 25px;
-  color: white;
-  padding-top: 3px; float: left;"></i>
-                  <p id="email-link" style="color: black;
-  font-family: Century Gothic, monospace;   margin-left: 5px;
-  line-height: 30px; 
-  float: left;"><a href="mailto: andrew.hatch96@gmail.com" data-rel="external" target="_blank" rel="noreferrer" style="text-decoration: none; color: black;">andrew.hatch96@gmail.com</a></p> 
+                <div class="col-sm-6 icon-div" style="float: left;">
+                  <i id="email-icon" class="fa fa-envelope icon"></i>
+                  <p id="email-link" class="icon-tag" style="float: left;"><a href="mailto: andrew.hatch96@gmail.com" data-rel="external" target="_blank" rel="noreferrer" class="links">andrew.hatch96@gmail.com</a></p>
                 </div>
-                <div class="col-sm-6" style="display: flex; float: right;">
-                  <i id="linkedin-icon" class="icons fa fa-linkedin" style="background: rgb(1,40,77);
-  border-radius: 50%;
-  font-size: 18px;
-  padding: 3px;
-  text-align: center;
-  vertical-align: middle;
-  width: 30px;
-  height: 30px;
-  line-height: 25px;
-  color: white;
-  padding-top: 2px; float: right;"></i>
-                  <p id="linkedin-link" style="color: black;
-  font-family: Century Gothic, monospace;   margin-left: 5px;
-  line-height: 30px; float: right;"><a href="https://www.linkedin.com/in/andrew-hatch-8b13b0134" target="_blank" rel="noreferrer" style="text-decoration: none; color: black;">linkedin.com/in/andrew-hatch-8b13b0134/</a></p>
+                <div class="col-sm-6 icon-div" style="float: right;">
+                  <i id="linkedin-icon" class="icon fa fa-linkedin"></i>
+                  <p id="linkedin-link" class="icon-tag" style="float: right;"><a href="https://www.linkedin.com/in/andrew-hatch-8b13b0134" target="_blank" rel="noreferrer" class="links">linkedin.com/in/andrew-hatch-8b13b0134/</a></p>
                 </div>
-            
+
               </div>
         </div>
-        
+
         <div id="personal-summary">
-          <p style="color: black;
-  font-family: Century Gothic, monospace;">Enthusiastic software developer eager to contribute to team success through hard work, attention to detail, and excellent organizational skills. Clear understanding of object-oriented programming and software design principles. Motivated to learn, grow and excel in the software development industry.
-</p>
+          <p>Enthusiastic software developer eager to contribute to team success through hard work, attention to detail, and excellent organizational skills. Clear understanding of object-oriented programming and software design principles. Highly motivated to learn, grow and excel in the software development industry.</p>
         </div>
-        
+
         <div id="education-section">
           <div id="education-title" style="display: flex;">
-            <i id="edu-icon" class="icons fa fa-graduation-cap fa-xl" style="background: rgb(1,40,77);
-  border-radius: 50%;
-  font-size: 20px;
-  padding: 3px;
-  text-align: center;
-  vertical-align: middle;
-  width: 30px;
-  height: 30px;
-  line-height: 25px;
-  color: white;
-  padding-top: 9px;
-  height: 45px;
-  width: 45px;
-  font-size: 27px;
-  margin-left: -5px;
-  margin-right: 5px;"></i>
-            <h3 id="edu-text" style="margin-left: 5px;
-  line-height: 30px;
-  margin-top: 8px;
-  font-weight: 800;">Education</h3>
+            <i id="edu-icon" class="icon-large fa fa-graduation-cap fa-2x"></i>
+            <h3 id="edu-text" class="section-title">Education</h3>
           </div>
-          <div id="school-section" style="margin-left: 51px; color: black;">
-            <h4 id="degree-name" style="font-weight: 700;
-  font-size: 20px;
-  margin-top: -2px;
-  margin-bottom: -1px;">Bachelor of Science: Applied Mathematics <span id="school-date" style="float: right; font-size: 16px; margin-top: 4px;">Jan 2017 - Dec 2020</span></h4>
-            <p id="school-name" style="color: black;
-  font-family: Century Gothic, monospace;"><em>Southern Utah University - Cedar City, UT</em></p>
-            <ul id="edu-list" style="color: black;
-  font-family: Century Gothic, monospace; margin-left: -15px; margin-top: -5px;">
+          <div id="school-section">
+            <h4 id="degree-name">Bachelor of Science: Applied Mathematics <span id="school-date" style="float: right; font-size: 16px; margin-top: 4px;">Jan 2017 - Dec 2020</span></h4>
+            <p id="school-name"><em>Southern Utah University - Cedar City, UT</em></p>
+            <ul id="edu-list">
               <li>Graduated summa cum laude</li>
               <li>Minored in Computer Science and Finance</li>
-              <li>Completed coursework in Data Structures and Algorithms, Object-Oriented Programming, Software Engineering Principles, and Linear and Non-Linear Optimization</li>
+              <li>Completed coursework in Data Structures and Algorithms, Object-Oriented Programming, Software Engineering Principles, and Computation Theory</li>
             </ul>
           </div>
         </div>
-        
+
         <div id="skills-section">
           <div id="skills-title" style="display: flex;">
-            <i id="skills-icon" class="icons fa fa-puzzle-piece fa-flip-both" style="background: rgb(1,40,77);
-  border-radius: 50%;
-  font-size: 20px;
-  padding: 3px;
-  text-align: center;
-  vertical-align: middle;
-  color: white;
-  padding-top: 9px;
-  height: 45px;
-  width: 45px;
-  font-size: 27px;
-  margin-left: -5px;
-  margin-right: 5px;
-  line-height: 25px;
-  padding-left: 7px;"></i>
-            <h3 id="skills-text" style="margin-left: 5px;
-  line-height: 30px; margin-top: 8px; font-weight: 800;">Skills</h3>
+            <i id="skills-icon" class="icon-large fa fa-puzzle-piece fa-flip-both fa-2x"></i>
+            <h3 id="skills-text" class="section-title">Skills</h3>
           </div>
-          <div id="skills-list" style="margin-left: 51px;">
+          <div id="skills-list">
             <ul style="margin-left: -19px;">
-              <li style="color: black;
-    font-family: Century Gothic, monospace;">Proficient in Java, C/C++, JavaScript, React/Redux, HTML5/CSS3</li>
-              <li style="color: black;
-    font-family: Century Gothic, monospace;">FreeCodeCamp certifications in Responsive Web Development, JavaScript Algorithms and Data Structures, and Front End Development Libraries</li>
+              <li>Proficient in Java, C/C++, JavaScript, Bootstrap, React/Redux, HTML5/CSS3,
+              VueJS, jQuery, MongoDB, and Node</li>
+              <li>FreeCodeCamp certifications in Responsive Web Development, JavaScript Algorithms and Data Structures, and Front End Development Libraries</li>
             </ul>
           </div>
         </div>
-        
+
         <div id="coding-section">
           <div id="coding-title" style="display: flex;">
-            <i id="coding-icon" class="icons fa fa-code fa-lg" style="background: rgb(1,40,77);
-  border-radius: 50%;
-  font-size: 20px;
-  padding: 3px;
-  text-align: center;
-  vertical-align: middle;
-  color: white;
-  padding-top: 9px;
-  height: 45px;
-  width: 45px;
-  font-size: 25px;
-  margin-left: -5px;
-  margin-right: 5px;
-  line-height: 27px;"></i>
-            <h3 id="coding-text" style="margin-left: 5px;
-  line-height: 30px;
-  margin-top: 8px; 
-  font-weight: 800;">Notable Projects</h3>
+            <i id="coding-icon" class="icon-large fa fa-code fa-2x"></i>
+            <h3 id="coding-text" class="section-title">Notable Projects</h3>
           </div>
-          <ul style="margin-left: 32px;">
-                <li style="color: black;
-      font-family: Century Gothic, monospace; margin-bottom: -1px;">Designed, coded, and tested a Java Tetris game following software engineering principles. Wrote a process model justification, software requirements specification, testing documentation, and other required documentation following software design principles.</li>
-                <li style="color: black;
-      font-family: Century Gothic, monospace; margin-bottom: -1px;">Constructed a C++ program to convert colored BMP images to black-and-white.</li>
-                <li style="color: black; font-family: Century Gothic, monospace; margin-bottom: -1px;">Built a JavaScript calculator program using React-Redux.</li>
-                <li style="color: black; font-family: Century Gothic, monospace; margin-bottom: -1px;">Created a personal portfolio website using React.</li>
+          <ul id="coding-list" style="margin-left: 32px;">
+                <li>Designed, coded, and tested a Java Tetris game following software engineering principles. Wrote a process model justification, software requirements specification, testing documentation, and other required documentation following software design principles.</li>
+                <li>Constructed a statistics web application using VueJS. Users can perform a variety of statistical calculations in a well-designed and easy-to-use interface.
+                <li>Developed a C++ program to convert colored BMP images to black-and-white.</li>
+                <li>Built a JavaScript calculator program using React-Redux.</li>
+                <li>Created a personal portfolio website using React and jQuery.</li>
               </ul>
         </div>
-        
+
         <div id="experience-section">
           <div id="experience-title" style="display: flex;">
-            <i id="experience-icon" class="icons fa fa-briefcase fa-lg" style="background: rgb(1,40,77);
-  border-radius: 50%;
-  font-size: 20px;
-  padding: 3px;
-  text-align: center;
-  vertical-align: middle;
-  color: white;
-  padding-top: 9px;
-  height: 45px;
-  width: 45px;
-  font-size: 25px;
-  margin-left: -5px;
-  margin-right: 5px;
-  line-height: 30px;"></i>
-            <h3 id="experience-text" style="margin-left: 5px;
-  line-height: 30px;
-  margin-top: 8px; 
-  font-weight: 800;">Work History</h3>
+            <i id="experience-icon" class="icon-large fa fa-briefcase fa-2x"></i>
+            <h3 id="experience-text" class="section-title">Work History</h3>
             </div>
-            <div id="experience-list" style="margin-left: 51px;">
-              
-              <h4 style="font-weight: 700;
-  font-size: 20px;
-  margin-top: -2px;
-  margin-bottom: -1px;
-  color: black;">Tutor <span id="school-date" style="float: right; font-size: 16px; margin-top: 4px;">Aug 2018 - Present</span></h4>
-              <p style="color: black;"><em>Southern Utah University - Cedar City, UT</em></p>
-              
-              <ul style="margin-top: -3px;">
-                <li style="color: black; font-family: Century Gothic, monospace; margin-bottom: -1px;">Met regularly with students for one-on-one tutoring in calculus, physics, statistics, and algebra. Assisted 8-10 students per day, on average.</li>
-                <li style="color: black; font-family: Century Gothic, monospace; margin-bottom: -1px;">Collaborated with students to complete homework assignments, identify lagging skills and correct weaknesses.</li>
+            <div id="experience-list">
+
+              <h4 id="work-title">Tutor <span id="work-date">Aug 2018 - Present</span></h4>
+              <p><em>Southern Utah University - Cedar City, UT</em></p>
+
+              <ul style="margin-top: -3px; font-family: Century Gothic, monospace;">
+                <li>Met regularly with students for one-on-one tutoring in calculus, physics, statistics, and algebra. Assisted 8-10 students per day, on average.</li>
+                <li>Collaborated with students to complete homework assignments, identify lagging skills and correct weaknesses.</li>
               </ul>
             </div>
-          
-          
-          
+
+
+
         </div>
       </div>
     </div>
