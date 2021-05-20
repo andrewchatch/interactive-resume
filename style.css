@@ -19,7 +19,13 @@ body {
   width: 7.5in;
   height: 100%;
   margin: 0.5in;
+  margin-top: 0.6in;
   position: relative;
+}
+
+#title-section {
+  display: flex;
+  align-items: center;
 }
 
 #name {
@@ -29,11 +35,11 @@ body {
 }
 
 #title {
-  margin-left: 10px;
-  margin-top: -2px;
+  margin-left: 20px;
+  margin-top: -15px;
   margin-bottom: 8px;
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .icon-div {
@@ -69,7 +75,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   margin-top: -2px;
-  margin-bottom: -1px;
+  margin-bottom: 0px;
 }
 
 #edu-list {
@@ -136,7 +142,11 @@ body {
   line-height: 30px;
 }
 
-#personal-summary, #school-name, #skills-list, #coding-list {
+#honors {
+  margin-top: -10px;
+}
+
+#personal-summary, #school-name, #skills-list, #coding-list, #honors {
   color: black;
   font-family: Century Gothic, monospace;
 }
